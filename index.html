@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>To - Do</title>
+</head>
+<body>
+    <header class="h-10 bg-blue-500"></header>
+    <div class="flex justify-between items-center">
+        <h1 class="text-blue-500 text-3xl p-3 font-semibold">Your List</h1>
+        <button id="addTask" class="p-3 px-5" onclick="addTask()">
+            <i class="fa-solid fa-circle-plus scale-150 text-blue-500 hover:text-blue-600"></i>
+        </button>
+    </div>
+
+    <ul id="taskContainer" class="px-5 py-2 space-y-2">
+        
+    </ul>
+
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
